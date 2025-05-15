@@ -1,0 +1,47 @@
+#  Colección: Productos
+
+Esta colección contiene una lista de productos con sus precios y especificaciones, como tallas y colores disponibles. Es útil para gestionar inventario o catálogos en una tienda.
+
+---
+
+## Documentos de ejemplo
+
+```js
+[
+  {
+    _id: 1,
+    producto: "zapatillas",
+    precio: "1000",
+    especificaciones: {
+      tallasdisponibles: "24,25,26,27,28",
+      colores: "negro suela rojo, cremita suela rojo"
+    }
+  },
+  {
+    _id: 2,
+    producto: "zapatillas edicion especial LV",
+    precio: "20000",
+    especificaciones: {
+      tallasdisponibles: "24,25,26,27,28, 29",
+      colores: "negro piedra incrustadas"
+    }
+  },
+  {
+    _id: 3,
+    producto: "gorras",
+    precio: "3000",
+    especificaciones: {
+      tallasdisponibles: "",
+      colores: "negro, gris"
+    }
+  },
+  {
+    _id: 4,
+    producto: "chaquetas",
+    precio: "1200",
+    especificaciones: {
+      tallasdisponibles: "pequeño, mediano, grande",
+      colores: "rojo, negro, azul, blanco"
+    }
+  }
+]
