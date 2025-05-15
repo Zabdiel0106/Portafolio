@@ -1,0 +1,25 @@
+# Sistema Escolar en MongoDB
+
+Este ejemplo muestra cómo representar un sistema básico escolar con estudiantes, profesores y cursos utilizando MongoDB.
+
+---
+
+## 1. Insertar Estudiantes
+
+```js
+db.estudiantes.insertMany([
+  {
+    _id: 1,
+    nombre: "Obed López",
+    correo: "obed.lopez@email.com",
+    matricula: "2025001",
+    cursos: ["matematicas"]
+  },
+  {
+    _id: 2,
+    nombre: "Zabdiel Aguilar",
+    correo: "zabdiel.aguilar@email.com",
+    matricula: "2025002",
+    cursos: ["matematicas"]
+  }
+]);
