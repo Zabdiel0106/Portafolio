@@ -1,0 +1,38 @@
+# Conceptos de Programación Orientada a Objetos (POO)
+
+Este documento explica los pilares fundamentales de la Programación Orientada a Objetos mediante definiciones y ejemplos prácticos en Java.
+
+---
+
+## Resumen de los 4 pilares de la POO
+
+| Pilar           | Descripción breve                                                                 |
+|------------------|----------------------------------------------------------------------------------|
+| **Abstracción**     | Oculta detalles complejos y muestra solo lo esencial del objeto.               |
+| **Herencia**        | Permite crear nuevas clases basadas en clases existentes.                     |
+| **Encapsulamiento** | Oculta los datos internos y los protege mediante métodos públicos.            |
+| **Polimorfismo**    | Permite que objetos distintos respondan a los mismos métodos de forma única.  |
+
+---
+
+## 1. Abstracción
+
+La **abstracción** es el proceso de representar objetos o conceptos de manera simplificada, enfocándose en lo relevante y ocultando los detalles innecesarios. Esto permite modelar sistemas complejos de forma más manejable.
+
+### Ejemplo en Java:
+
+```java
+public abstract class Vehiculo {
+    public abstract void arrancar();
+    public abstract void detener();
+}
+
+public class Auto extends Vehiculo {
+    public void arrancar() {
+        System.out.println("El auto arranca.");
+    }
+
+    public void detener() {
+        System.out.println("El auto se detiene.");
+    }
+}
