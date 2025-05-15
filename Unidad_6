@@ -1,0 +1,55 @@
+#  Diseño de Sistemas - Capas del Sistema
+
+Este documento explica de forma sencilla cómo funcionan las **capas de un sistema**: presentación, lógica de negocio y datos. Se utiliza el ejemplo de un aula virtual para ilustrar el flujo de la información.
+
+---
+
+##  Capa de Presentación
+
+Es donde los usuarios (en este caso los estudiantes) interactúan con el sistema. Aquí es donde se muestran interfaces básicas como:
+
+- Un formulario de inicio de sesión.
+- Campos para correo/usuario y contraseña.
+- Mensajes de error si algo sale mal.
+
+ Ejemplo: La página de acceso a la plataforma de IUNIS antes de entrar al aula virtual. Esta es la primera interacción entre el usuario y el sistema.
+
+---
+
+##  Capa de Lógica de Negocio
+
+Es la parte **principal del sistema**, donde se manejan las reglas, validaciones y procesos. Esta capa:
+
+- Verifica que los datos enviados por el usuario sean válidos.
+- Controla qué acciones puede o no hacer un usuario.
+- Calcula promedios, procesa tareas, y analiza información.
+
+ Ejemplo: En el aula virtual, cuando el sistema analiza nuestras tareas enviadas y calcula nuestra calificación.
+
+---
+
+## ️ Capa de Datos
+
+Aquí es donde se guarda toda la información. Es la **base de datos** que contiene:
+
+- Nombres de estudiantes registrados.
+- Calificaciones y promedios.
+- Información personal y académica.
+
+Esta capa asegura la integridad de los datos, y que la información esté organizada y protegida.
+
+---
+
+##  Trabajo en Conjunto
+
+Estas capas funcionan como un equipo:
+
+1. Lo que se ingresa en la **capa de presentación** se envía a la capa de negocio.
+2. La **lógica de negocio** procesa y valida los datos.
+3. Luego, la **capa de datos** guarda todo correctamente.
+4. Finalmente, se notifica al usuario si todo salió bien y puede continuar.
+
+---
+
+> Conclusión: Todo sistema bien diseñado debe seguir este flujo. Tener estas capas bien definidas ayuda a mantener el sistema ordenado, funcional y seguro.
+
