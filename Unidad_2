@@ -1,0 +1,90 @@
+# Ciclo de Vida de Sistemas
+
+El ciclo de vida de un sistema es un proceso estructurado que guía el desarrollo de sistemas desde su concepción hasta su despliegue y mantenimiento. Sigue un conjunto de fases bien definidas que permiten garantizar su correcta planeación, construcción e implementación.
+
+---
+
+##  Fase: Análisis de Requisitos
+**Propósito:**  
+Identificar, comprender y documentar las necesidades del usuario final.
+
+**Actividades:**
+- Reuniones con stakeholders.
+- Diagramas de casos de uso.
+- Documento de especificación.
+
+**Importancia:**  
+Evita malentendidos y asegura que el sistema cumpla lo necesario.
+
+---
+
+##  Fase: Diseño
+**Propósito:**  
+Convertir los requisitos en una arquitectura técnica y visual.
+
+**Actividades:**
+- Arquitectura del sistema.
+- Modelos de datos.
+- Diagramas de clases, secuencia y flujo.
+- Diseño UI/UX.
+
+**Importancia:**  
+Facilita el desarrollo y mejora el rendimiento y mantenimiento.
+
+---
+
+##  Fase: Desarrollo
+**Propósito:**  
+Construir el sistema programando módulos y funcionalidades.
+
+**Actividades:**
+- Codificación.
+- Base de datos y conexiones.
+- UI.
+- Pruebas y depuración.
+- Control de versiones.
+
+**Importancia:**  
+Un desarrollo estructurado asegura estabilidad y facilidad de mejora.
+
+---
+
+##  Fase: Implementación
+**Propósito:**  
+Asegurar que el sistema funcione bien antes del despliegue.
+
+**Actividades:**
+- Pruebas funcionales y de rendimiento.
+- Corrección de errores.
+- Configuración del entorno.
+- Capacitación y documentación.
+- Despliegue.
+
+**Importancia:**  
+Evita fallos al poner en marcha el sistema.
+
+---
+
+##  Fase: Mantenimiento
+**Propósito:**  
+Corregir errores, actualizar el sistema y mantenerlo relevante.
+
+**Actividades:**
+- Monitoreo.
+- Solución de fallos.
+- Actualizaciones.
+- Nuevas funciones.
+- Optimización.
+
+**Importancia:**  
+Extiende la vida útil del sistema y mantiene su eficiencia.
+
+---
+
+## Recursos Visuales
+
+-  [Ver presentación resumen en PDF](presentacion/Ciclo_de_vida_Diseño.pdf)
+
+---
+
+> Este documento forma parte del portafolio del curso, donde se detalla el proceso completo de desarrollo de sistemas a través del ciclo de vida tradicional.
