@@ -1,0 +1,91 @@
+# Ciclo de Vida de Sistemas
+
+El ciclo de vida de un sistema es un proceso estructurado que guía el desarrollo de sistemas desde su concepción hasta su despliegue y mantenimiento. Sigue un conjunto de fases bien definidas que permiten garantizar su correcta planeación, construcción e implementación. Cada fase tiene un propósito, actividades clave y una importancia en el éxito del proyecto.
+
+---
+
+##  Fase: Análisis de Requisitos
+
+**Propósito:**  
+Identificar, comprender y documentar las necesidades y expectativas del cliente o usuario final para garantizar que el sistema cumpla con sus requerimientos.
+
+**Actividades:**
+- Reuniones con stakeholders para recopilar requisitos.
+- Elaboración de diagramas de casos de uso.
+- Creación de un documento de especificación de requisitos.
+
+**Importancia:**  
+Evita malentendidos, reduce el riesgo de cambios costosos y asegura que el sistema responda adecuadamente a las necesidades del usuario.
+
+---
+
+##  Fase: Diseño
+
+**Propósito:**  
+Convertir los requisitos en una arquitectura técnica y visual para la construcción del sistema.
+
+**Actividades:**
+- Definir la arquitectura del sistema (cliente-servidor, monolítico, distribuido, etc.).
+- Diseñar bases de datos y modelos de datos.
+- Elaborar diagramas de clases, de secuencia y de flujo.
+- Diseñar la interfaz de usuario (UI/UX).
+- Establecer tecnologías y herramientas a utilizar.
+
+**Importancia:**  
+Facilita el desarrollo, mejora el rendimiento y la mantenibilidad del software.
+
+---
+
+##  Fase: Desarrollo
+
+**Propósito:**  
+Construir el sistema a partir del diseño, escribiendo código funcional y estructurado.
+
+**Actividades:**
+- Programación de módulos y funcionalidades.
+- Implementación de bases de datos y conexiones.
+- Desarrollo de interfaces de usuario.
+- Pruebas unitarias y depuración.
+- Control de versiones y documentación del código.
+
+**Importancia:**  
+El sistema toma forma. Un desarrollo sólido garantiza estabilidad, seguridad y posibilidad de mejoras.
+
+---
+
+##  Fase: Implementación
+
+**Propósito:**  
+Validar el funcionamiento del sistema y garantizar una transición segura a producción.
+
+**Actividades:**
+- Pruebas funcionales.
+- Pruebas de rendimiento, carga y seguridad.
+- Corrección de errores.
+- Configuración del entorno de producción.
+- Capacitación a usuarios y documentación de uso.
+- Despliegue del sistema.
+
+**Importancia:**  
+Minimiza interrupciones y asegura que el sistema esté listo para su uso real.
+
+---
+
+##  Fase: Mantenimiento
+
+**Propósito:**  
+Asegurar el funcionamiento del sistema en el tiempo, aplicando mejoras y corrigiendo errores.
+
+**Actividades:**
+- Monitoreo del rendimiento.
+- Resolución de fallos en producción.
+- Aplicación de actualizaciones.
+- Nuevas funcionalidades según necesidades del negocio.
+- Optimización para eficiencia y escalabilidad.
+
+**Importancia:**  
+Extiende la vida útil del sistema y garantiza su relevancia y eficiencia a lo largo del tiempo.
+
+---
+
+> El ciclo de vida de un sistema permite desarrollar software de forma organizada y eficiente. Un buen enfoque en cada fase garantiza calidad, minimiza riesgos y optimiza la inversión tecnológica.
